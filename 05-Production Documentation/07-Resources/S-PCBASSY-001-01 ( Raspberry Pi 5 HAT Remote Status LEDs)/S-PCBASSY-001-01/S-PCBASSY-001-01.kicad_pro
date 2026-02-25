@@ -109,6 +109,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -459,6 +460,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -469,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RaspberryPi-HAT.kicad_pro",
+    "filename": "S-PCBASSY-001-01.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -650,6 +652,18 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
+    ],
+    [
+      "3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431",
+      "RPi_Processor_Interface"
+    ],
+    [
+      "5c0ab3ce-2ad8-4605-8767-8f5ac0bb76ea",
+      "LED_Driver_Array"
+    ],
+    [
+      "dd804605-115d-4be8-9c67-9010d8abb097",
+      "External_Connector"
     ]
   ],
   "text_variables": {}
