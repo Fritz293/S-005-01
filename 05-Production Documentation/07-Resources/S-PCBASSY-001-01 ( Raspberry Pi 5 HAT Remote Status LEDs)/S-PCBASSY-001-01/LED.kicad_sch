@@ -909,7 +909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ed4c42-5791-4582-96a5-92116064a6c1")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 		(instances
 			(project "S-PCBASSY-001-01"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dd804605-115d-4be8-9c67-9010d8abb097"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)

@@ -21,7 +21,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 144.78 83.82)
+			(xy 119.38 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +31,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 144.78 91.44)
+			(xy 119.38 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +41,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 199.39 87.63)
+			(xy 171.45 93.98) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +51,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 144.78 87.63)
+			(xy 119.38 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +61,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 91.44) (xy 199.39 91.44)
+			(xy 171.45 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -71,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 199.39 83.82)
+			(xy 171.45 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -80,7 +80,7 @@
 		(uuid "ef08553a-e91b-48a3-a41a-7b0f6fffe294")
 	)
 	(sheet
-		(at 110.49 78.74)
+		(at 90.17 85.09)
 		(size 29.21 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -97,7 +97,7 @@
 		)
 		(uuid "3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431")
 		(property "Sheetname" "RPi_Processor_Interface"
-			(at 110.49 78.0284 0)
+			(at 90.17 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU_sch.kicad_sch"
-			(at 110.49 97.1046 0)
+			(at 90.17 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(pin "ERROR_RPi" input
-			(at 139.7 91.44 0)
+			(at 119.38 97.79 0)
 			(uuid "07114bd9-74b0-4cae-b728-d92e79e84c4d")
 			(effects
 				(font
@@ -125,7 +125,7 @@
 			)
 		)
 		(pin "MEDIA_LED_RPi" input
-			(at 139.7 87.63 0)
+			(at 119.38 93.98 0)
 			(uuid "65558813-f877-48e5-83e9-47cdd0c88e2e")
 			(effects
 				(font
@@ -135,7 +135,7 @@
 			)
 		)
 		(pin "POWER_LED_RPi" input
-			(at 139.7 83.82 0)
+			(at 119.38 90.17 0)
 			(uuid "18635c2f-cb4a-4485-bc16-66a88d624494")
 			(effects
 				(font
@@ -153,7 +153,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 78.74)
+		(at 124.46 85.09)
 		(size 46.99 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -169,7 +169,7 @@
 		)
 		(uuid "5c0ab3ce-2ad8-4605-8767-8f5ac0bb76ea")
 		(property "Sheetname" "LED_Driver_Array"
-			(at 144.78 78.0284 0)
+			(at 124.46 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,7 +178,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 144.78 97.1046 0)
+			(at 124.46 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,7 +187,7 @@
 			)
 		)
 		(pin "LED_CATHODE_MEDIA" input
-			(at 191.77 87.63 0)
+			(at 171.45 93.98 0)
 			(uuid "a024b17d-6461-49a4-ab36-cff3aa4d2b1d")
 			(effects
 				(font
@@ -197,7 +197,7 @@
 			)
 		)
 		(pin "MEDIA_LED_IN" input
-			(at 144.78 87.63 180)
+			(at 124.46 93.98 180)
 			(uuid "a614b2c2-2dc9-4e00-a828-a61eb660426c")
 			(effects
 				(font
@@ -207,7 +207,7 @@
 			)
 		)
 		(pin "ERROR_IN" input
-			(at 144.78 91.44 180)
+			(at 124.46 97.79 180)
 			(uuid "cf029fcf-6dc2-4205-8d86-33a7883fdd9e")
 			(effects
 				(font
@@ -217,7 +217,7 @@
 			)
 		)
 		(pin "LED_CATHODE_POWER" input
-			(at 191.77 83.82 0)
+			(at 171.45 90.17 0)
 			(uuid "8ae55823-3a6e-45d7-9116-141b14d745e7")
 			(effects
 				(font
@@ -227,7 +227,7 @@
 			)
 		)
 		(pin "LED_CATHODE_ERROR" input
-			(at 191.77 91.44 0)
+			(at 171.45 97.79 0)
 			(uuid "0b593de0-cde4-458a-840b-a5fd14326d36")
 			(effects
 				(font
@@ -237,7 +237,7 @@
 			)
 		)
 		(pin "POWER_LED_IN" input
-			(at 144.78 83.82 180)
+			(at 124.46 90.17 180)
 			(uuid "62463ecb-213b-4802-b8d0-7b7c93cac68d")
 			(effects
 				(font
@@ -255,7 +255,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 78.74)
+		(at 179.07 85.09)
 		(size 35.56 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -271,7 +271,7 @@
 		)
 		(uuid "dd804605-115d-4be8-9c67-9010d8abb097")
 		(property "Sheetname" "External_Connector"
-			(at 199.39 78.0284 0)
+			(at 179.07 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Sheetfile" "LED.kicad_sch"
-			(at 199.39 97.1046 0)
+			(at 179.07 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,7 +289,7 @@
 			)
 		)
 		(pin "CONNECTOR_CATHODE_POWER" input
-			(at 199.39 83.82 180)
+			(at 179.07 90.17 180)
 			(uuid "7731e281-16f8-4bb1-bca2-8def72f220ef")
 			(effects
 				(font
@@ -299,7 +299,7 @@
 			)
 		)
 		(pin "CONNECTOR_CATHODE_MEDIA" input
-			(at 199.39 87.63 180)
+			(at 179.07 93.98 180)
 			(uuid "4899bd7d-87c1-46be-992d-022742ba9722")
 			(effects
 				(font
@@ -309,7 +309,7 @@
 			)
 		)
 		(pin "CONNECTOR_CATHODE_ERROR" input
-			(at 199.39 91.44 180)
+			(at 179.07 97.79 180)
 			(uuid "6a0a17c4-7db4-4076-aa44-70c5c0b83ae5")
 			(effects
 				(font
