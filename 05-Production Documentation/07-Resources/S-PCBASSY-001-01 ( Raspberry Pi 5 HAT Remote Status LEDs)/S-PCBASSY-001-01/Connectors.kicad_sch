@@ -828,17 +828,97 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 17.78 74.93)
+		(end 115.57 121.92)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9e96aa7-568f-4ab0-a071-dc9d33acc49f)
+	)
+	(rectangle
+		(start 17.78 132.08)
+		(end 115.57 179.07)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b17b3488-4dad-496d-bea1-03573f21d81d)
+	)
+	(rectangle
+		(start 17.78 20.32)
+		(end 115.57 67.31)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dab27784-5d5a-4a74-ae31-c4d1e8356136)
+	)
+	(text "Notes\n"
+		(exclude_from_sim no)
+		(at 185.928 16.002 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "6020929f-9e7f-4ac5-a769-d5e1a090825a")
+	)
+	(text "RED LED Driver"
+		(exclude_from_sim no)
+		(at 18.288 129.286 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left)
+		)
+		(uuid "629d46ad-dc4e-49b2-8721-cfe14fbbc893")
+	)
+	(text "Green LED Driver"
+		(exclude_from_sim no)
+		(at 18.288 72.136 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left)
+		)
+		(uuid "70ecad8b-35e0-471a-8c60-31a06c8847e5")
+	)
+	(text "Blue LED Driver"
+		(exclude_from_sim no)
+		(at 18.288 17.526 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left)
+		)
+		(uuid "8ccf131c-c55b-4e1b-b7af-3670975c4d4d")
+	)
 	(text_box "Current Limiter (Rlimit​): Calculated for 5V.\n    Formula: R=(Vcc​−Vf​)/If​\n    For a standard Green LED (2.1Vf​, 20mA): 150Ω\n\n\nhttps://ams-osram.com/products/leds/multi-color-leds/osram-displix-p3333-krtblslps1-32"
 		(exclude_from_sim no)
-		(at 175.26 17.78 0)
-		(size 52.07 19.05)
+		(at 181.61 17.78 0)
+		(size 96.52 19.05)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 255 194 1)
 		)
 		(effects
 			(font
@@ -1579,7 +1659,7 @@
 		(cells
 			(table_cell "LED Color"
 				(exclude_from_sim no)
-				(at 173.99 39.37 0)
+				(at 181.61 38.1 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1596,7 +1676,7 @@
 			)
 			(table_cell "Typical Vf​"
 				(exclude_from_sim no)
-				(at 194.31 39.37 0)
+				(at 201.93 38.1 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1613,7 +1693,7 @@
 			)
 			(table_cell "Calculation"
 				(exclude_from_sim no)
-				(at 214.63 39.37 0)
+				(at 222.25 38.1 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1630,7 +1710,7 @@
 			)
 			(table_cell "Calculated R"
 				(exclude_from_sim no)
-				(at 234.95 39.37 0)
+				(at 242.57 38.1 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1647,7 +1727,7 @@
 			)
 			(table_cell "Standard Resistor"
 				(exclude_from_sim no)
-				(at 255.27 39.37 0)
+				(at 262.89 38.1 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1664,7 +1744,7 @@
 			)
 			(table_cell "RED (Error)"
 				(exclude_from_sim no)
-				(at 173.99 41.91 0)
+				(at 181.61 40.64 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1681,7 +1761,7 @@
 			)
 			(table_cell "2.0V"
 				(exclude_from_sim no)
-				(at 194.31 41.91 0)
+				(at 201.93 40.64 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1698,7 +1778,7 @@
 			)
 			(table_cell "(5−2.0)/0.02"
 				(exclude_from_sim no)
-				(at 214.63 41.91 0)
+				(at 222.25 40.64 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1715,7 +1795,7 @@
 			)
 			(table_cell "150Ω"
 				(exclude_from_sim no)
-				(at 234.95 41.91 0)
+				(at 242.57 40.64 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1732,7 +1812,7 @@
 			)
 			(table_cell "150Ω"
 				(exclude_from_sim no)
-				(at 255.27 41.91 0)
+				(at 262.89 40.64 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1749,7 +1829,7 @@
 			)
 			(table_cell "GREEN (Media)"
 				(exclude_from_sim no)
-				(at 173.99 44.45 0)
+				(at 181.61 43.18 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1766,7 +1846,7 @@
 			)
 			(table_cell "2.1V"
 				(exclude_from_sim no)
-				(at 194.31 44.45 0)
+				(at 201.93 43.18 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1783,7 +1863,7 @@
 			)
 			(table_cell "(5−2.1)/0.02"
 				(exclude_from_sim no)
-				(at 214.63 44.45 0)
+				(at 222.25 43.18 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1800,7 +1880,7 @@
 			)
 			(table_cell "145Ω"
 				(exclude_from_sim no)
-				(at 234.95 44.45 0)
+				(at 242.57 43.18 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1817,7 +1897,7 @@
 			)
 			(table_cell "150Ω"
 				(exclude_from_sim no)
-				(at 255.27 44.45 0)
+				(at 262.89 43.18 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1834,7 +1914,7 @@
 			)
 			(table_cell "BLUE (Power)"
 				(exclude_from_sim no)
-				(at 173.99 46.99 0)
+				(at 181.61 45.72 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1851,7 +1931,7 @@
 			)
 			(table_cell "3.2V"
 				(exclude_from_sim no)
-				(at 194.31 46.99 0)
+				(at 201.93 45.72 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1868,7 +1948,7 @@
 			)
 			(table_cell "(5−3.2)/0.02"
 				(exclude_from_sim no)
-				(at 214.63 46.99 0)
+				(at 222.25 45.72 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1885,7 +1965,7 @@
 			)
 			(table_cell "90Ω"
 				(exclude_from_sim no)
-				(at 234.95 46.99 0)
+				(at 242.57 45.72 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1902,7 +1982,7 @@
 			)
 			(table_cell "91Ω or 100Ω"
 				(exclude_from_sim no)
-				(at 255.27 46.99 0)
+				(at 262.89 45.72 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1919,7 +1999,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 173.99 49.53 0)
+				(at 181.61 48.26 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1936,7 +2016,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 194.31 49.53 0)
+				(at 201.93 48.26 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1953,7 +2033,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 214.63 49.53 0)
+				(at 222.25 48.26 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1970,7 +2050,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 234.95 49.53 0)
+				(at 242.57 48.26 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1987,7 +2067,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 255.27 49.53 0)
+				(at 262.89 48.26 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2004,7 +2084,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 173.99 52.07 0)
+				(at 181.61 50.8 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2021,7 +2101,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 194.31 52.07 0)
+				(at 201.93 50.8 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2038,7 +2118,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 214.63 52.07 0)
+				(at 222.25 50.8 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2055,7 +2135,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 234.95 52.07 0)
+				(at 242.57 50.8 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2072,7 +2152,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 255.27 52.07 0)
+				(at 262.89 50.8 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)

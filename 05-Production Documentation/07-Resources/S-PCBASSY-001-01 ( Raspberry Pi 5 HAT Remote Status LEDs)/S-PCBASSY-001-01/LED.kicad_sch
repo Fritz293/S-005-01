@@ -589,17 +589,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 91.44 69.85)
+		(end 213.36 115.57)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80fcb7d3-240f-484d-b58b-2083ecb591c9)
+	)
+	(text "Notes\n"
+		(exclude_from_sim no)
+		(at 243.332 16.51 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "a802a697-5566-4c0a-9031-f2fb03cba982")
+	)
+	(text "RGB Molex Connector"
+		(exclude_from_sim no)
+		(at 109.728 67.564 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "c3fdeec8-cc16-490a-b107-330b1b7f19fa")
+	)
 	(text_box "Micro-Fit 3.0 (4x1)\n\nAussming its Connected to a RGB LED other wise the connector should be replace with 1*6 or 2*3 connector\n"
 		(exclude_from_sim no)
-		(at 232.41 19.05 0)
-		(size 41.91 20.32)
+		(at 238.76 19.05 0)
+		(size 41.91 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 255 194 1)
 		)
 		(effects
 			(font
@@ -610,26 +643,26 @@
 		(uuid "9dd93410-f6c4-4627-9dd1-2503fb8e65bf")
 	)
 	(junction
-		(at 111.76 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b94de53-b2ca-41b9-9796-4b6741f7b0e1")
-	)
-	(junction
-		(at 93.98 86.36)
+		(at 144.78 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "543489be-edcb-4882-9fe3-cf457fb81533")
 	)
 	(junction
-		(at 76.2 83.82)
+		(at 127 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8ac9de6-dcc5-492a-8ed3-e772c3834842")
 	)
+	(junction
+		(at 162.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb25a3e3-9b54-4006-ad58-7850651277d8")
+	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 120.65 83.82)
+			(xy 127 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 120.65 88.9)
+			(xy 118.11 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +682,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 76.2 83.82)
+			(xy 162.56 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fea3c2-5f0e-4373-80e0-ca539d40c0aa")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -659,27 +702,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 120.65 86.36)
+			(xy 162.56 90.17) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c605f7b-2e83-4169-af9d-c473242dec00")
+		(uuid "2f314e6d-7dca-462f-b532-9e20c780610d")
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 111.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e46f8de-75ba-4b4f-b15e-006ba6359b57")
-	)
-	(wire
-		(pts
-			(xy 74.93 76.2) (xy 74.93 81.28)
+			(xy 125.73 77.47) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 76.2 83.82)
+			(xy 118.11 85.09) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +732,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 67.31 81.28)
+			(xy 125.73 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 93.98 92.71)
+			(xy 144.78 87.63) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 111.76 86.36)
+			(xy 144.78 87.63) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 111.76 104.14)
+			(xy 162.56 101.6) (xy 162.56 105.41)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +772,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 86.36) (xy 93.98 86.36)
+			(xy 118.11 87.63) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 76.2 104.14)
+			(xy 127 101.6) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 93.98 104.14)
+			(xy 144.78 101.6) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +802,7 @@
 	)
 	(hierarchical_label "CONNECTOR_CATHODE_MEDIA"
 		(shape input)
-		(at 120.65 86.36 0)
+		(at 170.18 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,7 +813,7 @@
 	)
 	(hierarchical_label "CONNECTOR_CATHODE_POWER"
 		(shape input)
-		(at 120.65 83.82 0)
+		(at 170.18 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +824,7 @@
 	)
 	(hierarchical_label "CONNECTOR_CATHODE_ERROR"
 		(shape input)
-		(at 120.65 88.9 0)
+		(at 170.18 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,7 +835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 104.14 0)
+		(at 144.78 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -811,7 +844,7 @@
 		(fields_autoplaced yes)
 		(uuid "110f5731-3fcd-4c96-a155-21dd7574ba73")
 		(property "Reference" "#PWR010"
-			(at 93.98 110.49 0)
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +853,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 109.22 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 104.14 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 104.14 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 104.14 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +901,7 @@
 	)
 	(symbol
 		(lib_id "Connector:43650-0428")
-		(at 67.31 88.9 180)
+		(at 118.11 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -877,7 +910,7 @@
 		(fields_autoplaced yes)
 		(uuid "22ed4c42-5791-4582-96a5-92116064a6c1")
 		(property "Reference" "J?"
-			(at 57.15 73.66 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +918,7 @@
 			)
 		)
 		(property "Value" "43650-0428"
-			(at 57.15 76.2 0)
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +926,7 @@
 			)
 		)
 		(property "Footprint" "Connector:43650-04YY_272829"
-			(at 50.8 -6.02 0)
+			(at 101.6 -4.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +936,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500227_sd.pdf"
-			(at 50.8 -106.02 0)
+			(at 101.6 -104.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +946,7 @@
 			)
 		)
 		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 4 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black"
-			(at 67.31 88.9 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +955,7 @@
 			)
 		)
 		(property "Height" "9.9"
-			(at 50.8 -306.02 0)
+			(at 101.6 -304.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +965,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 50.8 -406.02 0)
+			(at 101.6 -404.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +975,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "43650-0428"
-			(at 50.8 -506.02 0)
+			(at 101.6 -504.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +985,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-43650-0428"
-			(at 50.8 -606.02 0)
+			(at 101.6 -604.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +995,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0428?qs=zhePCb1yaFNxbtO8xFE5bw%3D%3D"
-			(at 50.8 -706.02 0)
+			(at 101.6 -704.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1005,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 50.8 -806.02 0)
+			(at 101.6 -804.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1015,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 50.8 -906.02 0)
+			(at 101.6 -904.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1053,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 104.14 0)
+		(at 127 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1029,7 +1062,7 @@
 		(fields_autoplaced yes)
 		(uuid "401dd17e-deb6-4e38-96b8-c1cc234206d4")
 		(property "Reference" "#PWR09"
-			(at 76.2 110.49 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 109.22 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 104.14 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 104.14 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 104.14 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1119,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PESD5V0S1UL")
-		(at 111.76 96.52 270)
+		(at 162.56 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1095,7 +1128,7 @@
 		(fields_autoplaced yes)
 		(uuid "5feb960e-7b73-48ce-9f5d-502e94712eff")
 		(property "Reference" "D9"
-			(at 114.3 95.2499 90)
+			(at 165.1 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1137,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL"
-			(at 114.3 97.7899 90)
+			(at 165.1 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1146,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 106.68 96.52 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 116.84 96.52 0)
+			(at 167.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1164,7 @@
 			)
 		)
 		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
-			(at 119.38 96.52 0)
+			(at 170.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1189,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PESD5V0S1UL")
-		(at 76.2 96.52 270)
+		(at 127 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1165,7 +1198,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b80597a-0375-4a3f-a7dd-0566a60f7a28")
 		(property "Reference" "D7"
-			(at 78.74 95.2499 90)
+			(at 129.54 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1207,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL"
-			(at 78.74 97.7899 90)
+			(at 129.54 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1216,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 71.12 96.52 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1225,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 81.28 96.52 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1234,7 @@
 			)
 		)
 		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
-			(at 83.82 96.52 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1259,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PESD5V0S1UL")
-		(at 93.98 96.52 270)
+		(at 144.78 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +1268,7 @@
 		(fields_autoplaced yes)
 		(uuid "7570a0c8-74ad-4b24-b35a-e2a004ade837")
 		(property "Reference" "D8"
-			(at 96.52 95.2499 90)
+			(at 147.32 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1277,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1UL"
-			(at 96.52 97.7899 90)
+			(at 147.32 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1286,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 88.9 96.52 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1295,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 99.06 96.52 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1304,7 @@
 			)
 		)
 		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
-			(at 101.6 96.52 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 104.14 0)
+		(at 162.56 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1305,7 +1338,7 @@
 		(fields_autoplaced yes)
 		(uuid "e70e8ba7-4546-45a6-82f6-b4cd6fe11994")
 		(property "Reference" "#PWR011"
-			(at 111.76 110.49 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 109.22 0)
+			(at 162.56 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 104.14 0)
+			(at 162.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 104.14 0)
+			(at 162.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 104.14 0)
+			(at 162.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1395,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 74.93 76.2 0)
+		(at 125.73 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1370,7 +1403,7 @@
 		(dnp no)
 		(uuid "fdc745e7-fc79-412a-9faf-c6a18edd0dfd")
 		(property "Reference" "#PWR08"
-			(at 74.93 80.01 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1412,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 75.2983 71.8756 0)
+			(at 126.0983 73.1456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 76.2 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 76.2 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 76.2 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
