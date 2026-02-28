@@ -828,7 +828,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Current Limiter (Rlimit​): Calculated for 5V.\n    Formula: R=(Vcc​−Vf​)/If​\n    For a standard Green LED (2.1Vf​, 20mA): 150Ω"
+	(text_box "Current Limiter (Rlimit​): Calculated for 5V.\n    Formula: R=(Vcc​−Vf​)/If​\n    For a standard Green LED (2.1Vf​, 20mA): 150Ω\n\n\nhttps://ams-osram.com/products/leds/multi-color-leds/osram-displix-p3333-krtblslps1-32"
 		(exclude_from_sim no)
 		(at 175.26 17.78 0)
 		(size 52.07 19.05)
