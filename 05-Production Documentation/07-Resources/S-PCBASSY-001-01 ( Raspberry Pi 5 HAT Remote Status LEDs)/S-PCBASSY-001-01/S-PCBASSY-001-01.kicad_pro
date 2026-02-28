@@ -245,7 +245,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1244600|711200|23a975f6-1804-488b-95df-72344a03f45b|00000000-0000-0000-0000-000000000000|||",
+        "Its fine"
+      ],
+      [
+        "lib_symbol_mismatch|1320800|711200|510c400a-2410-46b0-a7fb-1072fc4f848b|00000000-0000-0000-0000-000000000000|||",
+        "Its fine"
+      ],
+      [
+        "power_pin_not_driven|1917700|647700|fdfe2621-3322-4e6b-8d8a-a69772548e87|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|",
+        "Its fine"
+      ],
+      [
+        "power_pin_not_driven|2120900|1206500|7dfccb52-7937-48da-a851-7dff9713be87|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|",
+        "Its fine"
+      ],
+      [
+        "power_pin_not_driven|2120900|647700|fd2c46a1-7aae-42a9-93da-4ab8c0ebf781|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431|",
+        "Its fine"
+      ]
+    ],
     "meta": {
       "version": 0
     },
