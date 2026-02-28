@@ -2536,10 +2536,22 @@
 		(uuid "c43b1cd2-f74c-4fda-b479-7897b46b1abc")
 	)
 	(junction
+		(at 157.48 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cecff0c8-127a-4eb6-857d-ad5a77f63ff5")
+	)
+	(junction
 		(at 80.01 90.17)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "def83c48-1d9a-47f0-8401-ce037d08891f")
+	)
+	(junction
+		(at 157.48 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f5ef88-f0f6-4437-a603-7644439ffa1a")
 	)
 	(junction
 		(at 123.19 162.56)
@@ -2587,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 36.83) (xy 163.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed73e42-b5eb-41cd-b9fe-49f0ea77b766")
+	)
+	(wire
+		(pts
 			(xy 135.89 170.18) (xy 135.89 172.72)
 		)
 		(stroke
@@ -2614,6 +2636,16 @@
 			(type solid)
 		)
 		(uuid "11a356b2-ace3-4080-941a-0005f3f41aa4")
+	)
+	(wire
+		(pts
+			(xy 151.13 26.67) (xy 157.48 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ac1e9a-8f6a-4f55-baf4-2671f223084a")
 	)
 	(wire
 		(pts
@@ -2747,6 +2779,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 36.83) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abd14b7-cf70-4dbb-ab27-39b0901a239e")
+	)
+	(wire
+		(pts
 			(xy 53.34 95.25) (xy 82.55 95.25)
 		)
 		(stroke
@@ -2797,6 +2839,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 26.67) (xy 163.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f518107-651e-4766-872f-35ff99d2248b")
+	)
+	(wire
+		(pts
 			(xy 143.51 165.1) (xy 143.51 162.56)
 		)
 		(stroke
@@ -2804,6 +2856,16 @@
 			(type solid)
 		)
 		(uuid "50966ffc-db7f-4206-a46c-ce01f6c68e82")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171f47c-a8b1-4e7d-9a62-3134bac72e8e")
 	)
 	(wire
 		(pts
@@ -2857,6 +2919,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 36.83) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625f3d12-ed22-4360-9a6a-237dfbffe552")
+	)
+	(wire
+		(pts
 			(xy 95.25 92.71) (xy 121.92 92.71)
 		)
 		(stroke
@@ -2884,6 +2956,16 @@
 			(type solid)
 		)
 		(uuid "6c641f42-b68f-4259-95ea-3fb707266bf0")
+	)
+	(wire
+		(pts
+			(xy 151.13 35.56) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3c543c-45fa-4b3a-bfcb-a0e864a5e075")
 	)
 	(wire
 		(pts
@@ -2967,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 38.1) (xy 176.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3f8a34-e373-4f3c-9a19-99935aa9c261")
+	)
+	(wire
+		(pts
 			(xy 109.22 177.8) (xy 109.22 185.42)
 		)
 		(stroke
@@ -3007,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 27.94) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b424b4-f8e3-4158-9bac-291cb734707a")
+	)
+	(wire
+		(pts
 			(xy 53.34 67.31) (xy 82.55 67.31)
 		)
 		(stroke
@@ -3024,6 +3126,16 @@
 			(type solid)
 		)
 		(uuid "9d6d9492-565f-4789-9267-f86f0781dc55")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 163.83 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f1e2c9-5375-4b72-bd74-b522c0aefb6a")
 	)
 	(wire
 		(pts
@@ -3077,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 25.4) (xy 176.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02632b5-358c-4031-b5a9-a8cb44cf2f4b")
+	)
+	(wire
+		(pts
 			(xy 97.79 59.69) (xy 95.25 59.69)
 		)
 		(stroke
@@ -3124,6 +3246,16 @@
 			(type solid)
 		)
 		(uuid "c1e70228-8d24-4a07-80bc-53fb0136fc93")
+	)
+	(wire
+		(pts
+			(xy 157.48 25.4) (xy 157.48 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ec79ea-c85c-407c-bf56-a089ced3172a")
 	)
 	(wire
 		(pts
@@ -4088,6 +4220,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ec60d12-30a8-4e88-bee3-26fad7a0e060")
+		(property "Reference" "#PWR013"
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.5943 42.4244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96ef0e89-408a-4610-9e83-4e0a0046163d")
+		)
+		(instances
+			(project "S-PCBASSY-001-01"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 135.89 167.64 0)
 		(unit 1)
@@ -4158,7 +4353,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 58.42 0)
+		(at 163.83 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4167,7 +4362,7 @@
 		(fields_autoplaced yes)
 		(uuid "27ebce1f-3f26-4f2a-9077-5d31a17d88d0")
 		(property "Reference" "C3"
-			(at 185.42 57.1499 0)
+			(at 167.64 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4371,7 @@
 			)
 		)
 		(property "Value" "Samsung CL21B104KBCNNNC"
-			(at 185.42 59.6899 0)
+			(at 167.64 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4381,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 182.5752 62.23 0)
+			(at 164.7952 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4390,7 @@
 			)
 		)
 		(property "Datasheet" "https://octopart.com/search?q=Samsung+CL21B104KBCNNNC&currency=USD&specs=0"
-			(at 181.61 58.42 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4399,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 58.42 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,8 +4710,134 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 157.48 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cf6cdc3-1494-46a8-a907-3f3a4bd4d575")
+		(property "Reference" "#PWR012"
+			(at 157.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.8483 21.0756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f244e861-2693-4d87-aa78-1441cbf32e4d")
+		)
+		(instances
+			(project "S-PCBASSY-001-01"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 176.53 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3e9b01a-3437-446d-9fcd-ae5c25c2cef3")
+		(property "Reference" "#PWR014"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 176.8983 21.0756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c212ffc0-cac2-414a-84dc-95d11a7ad9a4")
+		)
+		(instances
+			(project "S-PCBASSY-001-01"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 148.59 58.42 0)
+		(at 151.13 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +4846,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7f7d201-8f68-4d58-8416-e6e5555a9926")
 		(property "Reference" "C2"
-			(at 152.4 57.1499 0)
+			(at 154.94 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4855,7 @@
 			)
 		)
 		(property "Value" "KEMET T491A106K016AT"
-			(at 152.4 59.6899 0)
+			(at 154.94 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4865,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 149.5552 62.23 0)
+			(at 152.0952 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4874,7 @@
 			)
 		)
 		(property "Datasheet" "https://octopart.com/part/kemet/T491A106K016AT"
-			(at 148.59 58.42 0)
+			(at 151.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4883,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 58.42 0)
+			(at 151.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,6 +4964,140 @@
 			(project "S-PCBASSY-001-01"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cddc2e64-8b5e-444b-b2d4-ac37ba4a8735")
+		(property "Reference" "#PWR015"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.6443 42.4244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc8abff-3704-4d3b-a1a2-9411059e1557")
+		)
+		(instances
+			(project "S-PCBASSY-001-01"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d327ac83-8342-4513-88d9-849afb497de8")
+		(property "Reference" "C4"
+			(at 180.34 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Samsung CL10B104KO8NNNC"
+			(at 180.34 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 177.4952 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/search?q=CL10B104KO8NNNC&currency=USD&specs=0"
+			(at 176.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da9e4274-6f83-4143-84cc-9b4cf1538e0a")
+		)
+		(pin "2"
+			(uuid "981dc65b-5c50-4740-8828-c546dd9983bc")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3b559bbf-d5c4-4e4e-8024-c1cb8f8bc431"
+					(reference "C4")
 					(unit 1)
 				)
 			)
