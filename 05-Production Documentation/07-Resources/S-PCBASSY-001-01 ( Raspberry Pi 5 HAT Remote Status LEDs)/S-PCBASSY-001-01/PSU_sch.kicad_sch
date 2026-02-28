@@ -6287,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5FV"
 			(at 103.2383 117.5956 0)
 			(effects
 				(font
@@ -6853,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5FV"
 			(at 132.4483 120.1356 0)
 			(effects
 				(font
