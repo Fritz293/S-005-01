@@ -5395,7 +5395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -6016,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -6413,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -6501,7 +6501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 132.08 142.24 0)
 			(effects
 				(font
