@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|162600000|72555930|7ddc68fc-240f-4dbd-ae88-985e9b8353ac|d5a711bc-6b6e-4c46-9c0c-58d686f3c2c9",
+          "This is Fine since it indicates the RGB 5V "
+        ]
+      ],
       "meta": {
         "version": 2
       },
