@@ -95,6 +95,66 @@
 				(justify left top)
 			)
 		)
+		(pin "LED_CATHODE_MEDIA" input
+			(at 97.79 104.14 180)
+			(uuid "a024b17d-6461-49a4-ab36-cff3aa4d2b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEDIA_LED_IN" input
+			(at 97.79 101.6 180)
+			(uuid "a614b2c2-2dc9-4e00-a828-a61eb660426c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ERROR_IN" input
+			(at 97.79 107.95 180)
+			(uuid "cf029fcf-6dc2-4205-8d86-33a7883fdd9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_CATHODE_POWER" input
+			(at 97.79 97.79 180)
+			(uuid "8ae55823-3a6e-45d7-9116-141b14d745e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_CATHODE_ERROR" input
+			(at 97.79 110.49 180)
+			(uuid "0b593de0-cde4-458a-840b-a5fd14326d36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_LED_IN" input
+			(at 97.79 95.25 180)
+			(uuid "62463ecb-213b-4802-b8d0-7b7c93cac68d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "S-PCBASSY-001-01"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -135,6 +195,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CONNECTOR_CATHODE_POWER" input
+			(at 199.39 85.09 180)
+			(uuid "7731e281-16f8-4bb1-bca2-8def72f220ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONNECTOR_CATHODE_MEDIA" input
+			(at 199.39 91.44 180)
+			(uuid "4899bd7d-87c1-46be-992d-022742ba9722")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONNECTOR_CATHODE_ERROR" input
+			(at 199.39 97.79 180)
+			(uuid "6a0a17c4-7db4-4076-aa44-70c5c0b83ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
